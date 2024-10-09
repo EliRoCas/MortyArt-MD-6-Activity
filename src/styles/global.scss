@@ -1,0 +1,50 @@
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  background-color: #f8f9fa;
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  margin: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  color: #282c34;
+  font-size: 16px;
+  font-family: cursive;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #154764;
+    color: #fff;
+  }
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  font-family: cursive;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:focus {
+    background-color: #154764;
+    color: #fff;
+  }
+}
