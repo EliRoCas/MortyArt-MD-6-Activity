@@ -43,18 +43,15 @@ h2 {
   }
 }
 
-@media (max-width: 1248px) {
+@media (max-width: 800px) {
   .cardList {
-    li {
-      flex: 1 1 22%;
-    }
-  }
-}
+    flex-direction: column;
+    align-items: center;
 
-@media (max-width: 801px) {
-  .cardList {
-    li {
-      flex: 1 1 45%;
+    .card {
+      width: 80%;
+      margin-bottom: 1rem;
+      flex: none;
     }
   }
 }
